@@ -19,6 +19,7 @@ This is pre-packaged Vagrant box that provides you a development environment wit
 - NodeJS 13.14
 - Yarn 1.22.4
 
+MySQL **root** user password: **root**
 
 ## Installation
 
