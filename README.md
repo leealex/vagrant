@@ -36,7 +36,7 @@ Your virtual machine will be available at http://10.10.10.100 (this can be chang
 
 ## Upgrade
 
-Before upgrading the box backup all your databases.
+Backup all your databases before upgrading the box.
 
 - vagrant box update
 - vagrant destroy
