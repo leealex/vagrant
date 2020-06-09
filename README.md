@@ -36,8 +36,12 @@ Your virtual machine will be available at http://10.10.10.100 (this can be chang
 
 ## Upgrade
 
-Backup all your databases before upgrading the box.
+Backup all your databases before upgrading the box:
 
-- vagrant box update
-- vagrant destroy
-- vagrant up
+`mysqldump --all-databases > db_backup.sql`
+
+Then run commands:
+
+1. `vagrant box update`
+2. `vagrant destroy`
+3. `vagrant up`
