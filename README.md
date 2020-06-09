@@ -33,3 +33,11 @@ All you need to do is just clone this repo and run command inside a folder that 
 `vagrant up`
 
 Your virtual machine will be available at http://10.10.10.100 (this can be changed in Vagrantfile)
+
+## Upgrade
+
+Before upgrading the box backup all your databases.
+
+- vagrant box update
+- vagrant destroy
+- vagrant up
