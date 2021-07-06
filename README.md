@@ -8,7 +8,7 @@ This is pre-packaged Vagrant box that provides you a development environment wit
 - Debian 9
 - Nginx 1.10.3
 - MySQL 5.7
-- PHP 7.4
+- PHP 8.0
   - Curl
   - Memcached
   - PHP-FPM
